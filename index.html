@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Currículo</title>
+</head>
+<body>
+    <h1>Cadastro de Currículo</h1>
+
+    <section id="Informações Pessoais">
+        <h3>Informações Pessoais</h3>
+        <ul>
+            <li>Nome:
+                <input type="text" name="nome" placeholder="Digite seu nome">
+            </li>
+            <li>Email:
+                <input type="e-mail" name="e-mail" placeholder="Digite seu email">
+            </li>
+            <li>Data de Nascimento:
+                <input type="date" name="data">
+            </li>
+            <li>Altura(m):
+                <input type="number" name="altura">
+            </li>
+            <li>Site:
+                <input type="url" name="site" placeholder="Facebook, Linkedin...">
+            </li>
+            <li>Estado Civil:
+                <select name="estadocivil" id="">
+                    <option value="Selecionar">Selecionar...</option>
+                    <option value="Solteiro">Solteiro</option>
+                    <option value="Casado">Casado</option>
+                    <option value="Separado">Separado</option>
+                    <option value="Divorciado">Divorciado</option>
+                    <option value="Viúvo">Viúvo</option>
+                </select>
+            </li>
+            <li>Sexo:
+                <input type="radio" name="sexo"> Masculino
+                <input type="radio" name="sexo"> Feminino
+                <input type="radio" name="sexo"> Não binário
+            </li>
+        </ul>
+    </section>
+
+    <section id="Endereço">
+        <h3>Endereço</h3>
+        <ul>
+        <li>CEP:
+            <input type="tel" name="cep">
+        </li>
+        <li>Endereço:
+            <input type="name" name="Endereço">
+        </li>
+        </ul>
+    </section>
+
+    <section id="Contato">
+        <h3>Contato</h3>
+        <ul>
+            <li>Telefone:
+                <input type="tel" name="telefone">
+            </li>
+            <li>Celular:
+                <input type="tel" name="celular">
+            </li>
+        </ul>
+    </section>
+
+    <section id="Conhecimentos">
+        <h3>Conhecimentos</h3>
+        <ul>
+            <li>
+                <input type="checkbox" name="html"> HTML
+                <input type="checkbox" name="html"> CSS
+                <input type="checkbox" name="html"> JavaScript
+            </li>
+            <li>Mais Conhecimentos:
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
